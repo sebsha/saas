@@ -7,16 +7,12 @@ gem 'rails', '4.2.5'
 gem 'sqlite3'
 
 #use postgresql as the database for production
-gem   'pg'
+gem 'pg'
 gem 'rails_12factor'
 
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '5.0'
-#use bootstrap library for styles
-gem 'bootstrap-sass', '3.3.7'
-# use font awesome library for icons
-gem 'font-awesome-sass', '5.0.9'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -54,3 +50,4 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
+
