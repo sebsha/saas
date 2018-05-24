@@ -11,8 +11,8 @@ end
 
 #use postgresql as the database for production
 group :production do
-  gem   'pg'
-  gem 'rails_12factor', group::production
+  gem   'pg', '0.21'
+  gem 'rails_12factor'
 end
 
 # Use SCSS for stylesheets
